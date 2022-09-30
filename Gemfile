@@ -10,6 +10,7 @@ gem "sequel"
 gem "sqlite3"
 gem "sinatra", "3.0.1"
 gem "sinatra-contrib", "3.0.1"
+gem "rackup"
 
 group :development, :test do
   gem "byebug", require: true
