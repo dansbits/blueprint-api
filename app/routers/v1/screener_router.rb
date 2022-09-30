@@ -18,6 +18,10 @@ module Routers
 
           json({ results: assessments })
         end
+
+        app.get "/v1/screener/questions" do
+          json(Utils::ScreenerQuestions)
+        end
       end
     end
   end

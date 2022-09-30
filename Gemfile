@@ -5,6 +5,7 @@ ruby '3.1.2'
 gem "dotenv"
 gem "irb"
 gem "puma", "4.3.6"
+gem 'rack-cors'
 gem "rake"
 gem "sequel"
 gem "sqlite3"
